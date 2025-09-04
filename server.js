@@ -13,6 +13,10 @@ main().catch((err) => console.log(err));
 // Main function to execute the schemas
 async function main() {
   await mongoose.connect("mongodb://127.0.0.1:27017/testdb");
+
+
+
+  
   // const customerSchema = await customer.create({
   //   name: "Ramsh",
   //   age: 24.7,
